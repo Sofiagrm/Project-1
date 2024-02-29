@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+  max-width: 960px;
+}
+
+body nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  background-color: #009be9;
+}
+
+body nav span {
+  font-size: 50px;
+}
+
+body nav span a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #acb0c6;
+}
+
+img.model3 {
+    height: auto;
+    width: 960px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 20px; /* Gap between grid items */
+  }
+  .grid-item {
+    width: 100%; /* Ensure each grid item takes full width of column */
+  }
+  .grid-item img {
+    width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+  }
