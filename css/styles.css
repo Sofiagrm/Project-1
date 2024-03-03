@@ -120,7 +120,8 @@ div#contents_container.gallery img {
 }
 
 section#contents.contacts {
-  align-items: stretch;
+  align-items: center;
+  flex-direction: column;
 }
 
 section#contents.store {
@@ -133,15 +134,15 @@ section#contents.store {
   grid-gap: 20px;
 }
 .grid-item {
-  width: 100%; /* Ensure each grid item takes full width of column */
+  width: 100%; 
 }
 .grid-item img {
-  width: 100%; /* Ensure images fill their container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; 
+  height: auto; /
 }
 
 .contents_container {
-  align-items: flex-start; /* Alinha os itens no topo */
+  align-items: flex-start; 
 }
 .contents_container_text {
   text-align: center;
@@ -150,7 +151,6 @@ section#contents.store {
 .form-container {
   flex: 0 0 48%;
   padding: 20px;
-  /**background-color: #f0f0f0;**/
 }
 .text-container {
   flex: 0 0 34, 5%;
