@@ -61,10 +61,6 @@ nav span:hover {
   display: none;
 }
 
-#dropdown:hover .drop_btn {
- /**background-color: #38bbbb;**/
-}
-
 #dropdown .dropdown-container {
   display: none;
   position: absolute;
