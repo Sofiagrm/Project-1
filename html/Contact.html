@@ -1,103 +1,125 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/background.css">
-    <title>Jewlery Store</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/background.css" />
+        <title>Jewlery Store</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
 
-<body>
-
-
-    <div id="page_content">
-        <section id="header">
-            <div id="header_container">
-                <div id="navigation">
-                    <nav>
-                        <span>
-                            <a href="/index.html">Home</a>
-                        </span>
-                        <span>
-                            <a href="/html/Gallery.html">Gallery</a>
-                        </span>
-                        <span id="dropdown">
-                            <div class="drop_btn">Collections<i class="fa fa-caret-down"></i></div>
-                            <div class="dropdown-container">
-                                <a href="/html/Celestial_Radiance.html">Celestial Radiance</a>
-                                <a href="/html/Cyber_Fusion.html">Cyber Fusion</a>
-                                <a href="/html/Neo_Classical_Revival.html">Neo Classical Revival</a>
-                              </div>
-                        </span>
-                        <span>
-                            <a href="/html/AboutUs.html">About Us</a>
-                        </span>
-                        <span class="highlight">
-                            <a href="/html/Contact.html">Contacts</a>
-                        </span>
-                    </nav>
+    <body>
+        <div id="page_content">
+            <section id="header">
+                <div id="header_container">
+                    <div id="navigation">
+                        <nav>
+                            <span>
+                                <a href="/index.html">Home</a>
+                            </span>
+                            <span>
+                                <a href="/html/Gallery.html">Gallery</a>
+                            </span>
+                            <span id="dropdown">
+                                <div class="drop_btn">
+                                    Collections<i class="fa fa-caret-down"></i>
+                                </div>
+                                <div class="dropdown-container">
+                                    <a href="/html/Celestial_Radiance.html"
+                                        >Celestial Radiance</a
+                                    >
+                                    <a href="/html/Cyber_Fusion.html"
+                                        >Cyber Fusion</a
+                                    >
+                                    <a href="/html/Neo_Classical_Revival.html"
+                                        >Neo Classical Revival</a
+                                    >
+                                </div>
+                            </span>
+                            <span>
+                                <a href="/html/AboutUs.html">About Us</a>
+                            </span>
+                            <span class="highlight">
+                                <a href="/html/Contact.html">Contacts</a>
+                            </span>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
+            <section id="contents" class="contacts">
+                <div class="title-contacts">
+                    <p>
+                        We are thrilled to hear from you! Please take a moment
+                        to fill out the form below with your inquiries,
+                        feedback, or any assistance you may need.
+                    </p>
 
-        <section id="contents" class="contacts">
-            <div class="title-contacts">
-                <p>
-                    We are thrilled to hear from you! Please take a moment to fill out the form below with 
-                    your inquiries, feedback, or any assistance you may need. 
-                </p>
-                
-                <p>
-                    Our team of experts is here to assist you on your journey to finding the perfect piece
-                    that embodies both innovation 
-                    and elegance. 
-                </p>
+                    <p>
+                        Our team of experts is here to assist you on your
+                        journey to finding the perfect piece that embodies both
+                        innovation and elegance.
+                    </p>
 
-                <p>
-                    Thank you for choosing NovaLux Jewels.
-                </p>
-            </div>
+                    <p>Thank you for choosing NovaLux Jewels.</p>
+                </div>
 
-            <div class="form-container">
+                <div class="form-container">
+                    <form
+                        action="http://vip.groupehn.com:20003/html/infospost.php"
+                        method="post">
+                        <label for="name">First Name:</label><br />
+                        <input
+                            type="text"
+                            id="firstname"
+                            name="firstname" /><br />
 
-                <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
-                    <label for="name">First Name:</label><br>
-                    <input type="text" id="firstname" name="firstname"><br>
+                        <label for="LastName">Last Name:</label><br />
+                        <input
+                            type="text"
+                            id="lastname"
+                            name="lastname" /><br />
 
-                    <label for="LastName">Last Name:</label><br>
-                    <input type="text" id="lastname" name="lastname"><br>
+                        <label for="email">Email:</label><br />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="yourmail@yahoo.com" /><br /><br />
 
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" placeholder="yourmail@yahoo.com"><br><br>
+                        <textarea
+                            class="yourclass"
+                            name="request"
+                            id="request"
+                            cols="66"
+                            rows="10"></textarea
+                        ><br /><br />
 
-                    <textarea class="yourclass" name="request" id="request" cols="66" rows="10"></textarea><br><br>
+                        <label for="country">Country:</label><br />
+                        <select id="country" name="country" required>
+                            <option value="" disabled selected>
+                                Select Country
+                            </option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option></select
+                        ><br /><br />
 
-                    <label for="country">Country:</label><br>
-                    <select id="country" name="country" required>
-                        <option value="" disabled selected>Select Country</option>
-                        <option value="USA">USA</option>
-                        <option value="Canada">Canada</option>
-                        <option value="UK">UK</option>
-                    </select><br><br>
-
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-         
-        </section>
-
-    </div>
-</body>
-
-
-
-
-
-
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
